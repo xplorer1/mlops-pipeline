@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="horizontal" android:gravity="center_vertical" android:padding="12dp" android:background="#F3F9FD">
+    <LinearLayout android:id="@+id/widgetInfo" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:orientation="vertical" android:gravity="center_vertical">
+        <TextView android:id="@+id/widgetTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="No song selected" android:textColor="#29445E" android:textSize="16sp" android:singleLine="true" android:ellipsize="end" />
+        <TextView android:id="@+id/widgetArtist" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="boomtrack" android:textColor="#71879A" android:textSize="12sp" android:singleLine="true" android:ellipsize="end" />
+    </LinearLayout>
+    <TextView android:id="@+id/widgetToggle" android:layout_width="48dp" android:layout_height="48dp" android:gravity="center" android:text="▶" android:textSize="24sp" android:textColor="#1D9CFA" android:contentDescription="Play or pause" />
+    <TextView android:id="@+id/widgetNext" android:layout_width="48dp" android:layout_height="48dp" android:gravity="center" android:text="▶|" android:textSize="18sp" android:textColor="#1D9CFA" android:contentDescription="Next song" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+reference-private/
+*.apk
+sdk-image-install.log
+.tools/
+.gradle/
+.gradle-user/
+.kotlin/
+**/build/
+local.properties
+*.jks
+*.keystore
+*.aab
+.cxx/
+.externalNativeBuild/
+captures/
+*.hprof
+.idea/

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lyric Line launcher icon: foreground layer (108dp adaptive canvas, glyph inside the 66dp safe zone). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Previous lyric line (dimmed) -->
+    <path
+        android:fillColor="#C9C3B6"
+        android:pathData="M33,34 L67,34 A3,3 0 0 1 67,40 L33,40 A3,3 0 0 1 33,34 Z" />
+
+    <!-- Current lyric line: unsung part -->
+    <path
+        android:fillColor="#111418"
+        android:pathData="M28.5,50 L79.5,50 A4.5,4.5 0 0 1 79.5,59 L28.5,59 A4.5,4.5 0 0 1 28.5,50 Z" />
+
+    <!-- Current lyric line: sung part (karaoke wipe) -->
+    <path
+        android:fillColor="#FF6B5B"
+        android:pathData="M28.5,50 L55.5,50 A4.5,4.5 0 0 1 55.5,59 L28.5,59 A4.5,4.5 0 0 1 28.5,50 Z" />
+
+    <!-- Next lyric line (dimmed) -->
+    <path
+        android:fillColor="#C9C3B6"
+        android:pathData="M35,69 L63,69 A3,3 0 0 1 63,75 L35,75 A3,3 0 0 1 35,69 Z" />
+</vector>

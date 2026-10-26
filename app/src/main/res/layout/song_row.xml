@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="56dp" android:gravity="center_vertical" android:paddingStart="0dp">
+    <TextView android:id="@+id/songNumber" android:layout_width="44dp" android:layout_height="match_parent" android:gravity="center" android:textSize="16sp" android:textColor="#CCCCCC" />
+    <LinearLayout android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:orientation="vertical">
+        <TextView android:id="@+id/songTitle" android:layout_width="wrap_content" android:layout_height="26dp" android:text="" android:textSize="16sp" android:textColor="#454C50" android:gravity="center_vertical" android:fontFamily="sans" android:singleLine="true" android:ellipsize="end" />
+        <TextView android:id="@+id/songArtist" android:layout_width="wrap_content" android:layout_height="20dp" android:text="" android:textSize="12sp" android:textColor="#888888" android:gravity="center_vertical" android:fontFamily="sans" android:singleLine="true" android:ellipsize="end" />
+    </LinearLayout>
+    <ImageButton android:id="@+id/songMore" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ic_classic_down" android:background="?attr/selectableItemBackgroundBorderless" android:padding="19dp" android:contentDescription="Song options" android:focusable="false" app:tint="#AAAAAA" />
+</LinearLayout>

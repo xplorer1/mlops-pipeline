@@ -1,0 +1,16 @@
+<resources>
+    <style name="Theme.ClassicPlayer" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#1D9CFA</item>
+        <item name="colorAccent">#1D9CFA</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#1D9CFA</item>
+        <item name="android:navigationBarColor">#1D9CFA</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="buttonStyle">@style/ClassicButton</item>
+    </style>
+    <style name="ClassicButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">#1976D2</item>
+    </style>
+</resources>
